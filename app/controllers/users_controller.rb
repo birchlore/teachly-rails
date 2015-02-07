@@ -1,11 +1,12 @@
 class UsersController < ApplicationController
 
+  before_action :restrict_access
 
   def dashboard
     render :dashboard
   end
 
-  
+
   def new
     @user = User.new
   end
