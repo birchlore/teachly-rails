@@ -2499,3 +2499,1059 @@ Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:36:17 +0000
 
 
 Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:36:17 +0000
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:40:32 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#dashboard as HTML
+  [1m[35mUser Load (2.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/dashboard.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 4355ms (Views: 4294.7ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:40:37 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/dashboard.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 427ms (Views: 423.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:40:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:40:39 +0000
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:44:12 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#dashboard as HTML
+  [1m[35mUser Load (2.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/_nav.html.erb (0.5ms)
+  Rendered users/dashboard.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 900ms (Views: 839.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:44:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:13 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:13 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:13 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:44:14 +0000
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/_nav.html.erb (0.4ms)
+  Rendered users/dashboard.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 410ms (Views: 406.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:09 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+
+Started GET "/assets/logo5.png" for 10.0.2.2 at 2015-02-07 01:45:10 +0000
+
+ActionController::RoutingError (No route matches [GET] "/logo5.png"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.1ms)
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[35mUser Load (2.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/_nav.html.erb (0.4ms)
+  Rendered users/dashboard.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 403ms (Views: 399.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:26 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:45:27 +0000
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:46:53 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/_nav.html.erb (0.4ms)
+  Rendered users/dashboard.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 409ms (Views: 405.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:54 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:55 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:55 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:55 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:46:55 +0000
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:47:11 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/_nav.html.erb (0.5ms)
+  Rendered users/dashboard.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 420ms (Views: 417.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:47:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:11 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:12 +0000
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:47:41 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/_nav.html.erb (0.4ms)
+  Rendered users/dashboard.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 405ms (Views: 402.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:41 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:41 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:47:42 +0000
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/_nav.html.erb (0.0ms)
+  Rendered users/dashboard.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 403ms (Views: 400.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:57 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:48:58 +0000
+
+
+Started GET "/dashboard/edit" for 10.0.2.2 at 2015-02-07 01:49:55 +0000
+
+ActionController::RoutingError (No route matches [GET] "/dashboard/edit"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.8ms)
+
+
+Started GET "/dashboard/edit" for 10.0.2.2 at 2015-02-07 01:49:55 +0000
+
+ActionController::RoutingError (No route matches [GET] "/dashboard/edit"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.1ms)
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:52:35 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#dashboard as HTML
+  [1m[35mUser Load (1.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/_nav.html.erb (25.3ms)
+  Rendered users/dashboard.html.erb within layouts/application (56.5ms)
+Completed 500 Internal Server Error in 207ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    25:           <ul class="dropdown-menu" role="menu">
+    26:             <li><a href="#">Account Details</a></li>
+    27:             <li><a href="/dashboard/edit">Edit Profile</a></li>
+    28:             <li><%= link_to "logout", session_path(@user.id), :method => :delete %></li>
+    29:           </ul>
+    30:         </li>
+    31:       </ul>
+  app/views/users/_nav.html.erb:28:in `_app_views_users__nav_html_erb__286616904_84943940'
+  app/views/users/dashboard.html.erb:1:in `_app_views_users_dashboard_html_erb__181560022_89652570'
+  app/controllers/users_controller.rb:6:in `dashboard'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.3ms)
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:53:27 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/_nav.html.erb (18.8ms)
+  Rendered users/dashboard.html.erb within layouts/application (38.1ms)
+Completed 500 Internal Server Error in 93ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    25:           <ul class="dropdown-menu" role="menu">
+    26:             <li><a href="#">Account Details</a></li>
+    27:             <li><a href="/dashboard/edit">Edit Profile</a></li>
+    28:             <li><%= link_to "logout", session_path(@user.id), method: :delete %></li>
+    29:           </ul>
+    30:         </li>
+    31:       </ul>
+  app/views/users/_nav.html.erb:28:in `_app_views_users__nav_html_erb__286616904_99562960'
+  app/views/users/dashboard.html.erb:1:in `_app_views_users_dashboard_html_erb__181560022_89652570'
+  app/controllers/users_controller.rb:6:in `dashboard'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.8ms)
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:53:52 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/_nav.html.erb (21.4ms)
+  Rendered users/dashboard.html.erb within layouts/application (49.6ms)
+Completed 500 Internal Server Error in 103ms
+
+ActionView::Template::Error (No route matches {:action=>"destroy", :controller=>"sessions"} missing required keys: [:id]):
+    25:           <ul class="dropdown-menu" role="menu">
+    26:             <li><a href="#">Account Details</a></li>
+    27:             <li><a href="/dashboard/edit">Edit Profile</a></li>
+    28:             <li><%= link_to "logout", session_path, method: :delete %></li>
+    29:           </ul>
+    30:         </li>
+    31:       </ul>
+  app/views/users/_nav.html.erb:28:in `_app_views_users__nav_html_erb__286616904_98625370'
+  app/views/users/dashboard.html.erb:1:in `_app_views_users_dashboard_html_erb__181560022_89652570'
+  app/controllers/users_controller.rb:6:in `dashboard'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:54:11 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/_nav.html.erb (0.8ms)
+  Rendered users/dashboard.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 760ms (Views: 757.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:12 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:13 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:13 +0000
+
+
+Started DELETE "/sessions/2" for 10.0.2.2 at 2015-02-07 01:54:16 +0000
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8wkghZu3CsLDcNLUKX4aDkdl5QrjDp9hPLV7MqhxZ2Q=", "id"=>"2"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 10.0.2.2 at 2015-02-07 01:54:16 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 395ms (Views: 394.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:16 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:54:17 +0000
+
+
+Started POST "/sessions" for 10.0.2.2 at 2015-02-07 01:55:19 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8wkghZu3CsLDcNLUKX4aDkdl5QrjDp9hPLV7MqhxZ2Q=", "email"=>"admin@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'admin@gmail.com' LIMIT 1
+Redirected to http://localhost:3000/users/dashboard
+Completed 302 Found in 128ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/users/dashboard" for 10.0.2.2 at 2015-02-07 01:55:19 +0000
+Processing by UsersController#dashboard as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/_nav.html.erb (0.4ms)
+  Rendered users/dashboard.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 402ms (Views: 398.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:20 +0000
+
+
+Started DELETE "/sessions/2" for 10.0.2.2 at 2015-02-07 01:55:23 +0000
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8wkghZu3CsLDcNLUKX4aDkdl5QrjDp9hPLV7MqhxZ2Q=", "id"=>"2"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 375ms (Views: 374.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:24 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:25 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:25 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:25 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:25 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:25 +0000
+
+
+Started GET "/assets/experts.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:25 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:25 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-07 01:55:25 +0000

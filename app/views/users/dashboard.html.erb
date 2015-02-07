@@ -1,5 +1,7 @@
+<%= render 'users/nav' %>
+
 <h1>Welcome <%= current_user.first_name %></h1>
-<ul>
-  <li>search placeholder</li>
-  <li>Become a local expert</li>
-</ul>
+
+<div class="form-group search-bar center-block">
+  <input type="search" name="search" class="form-control" id="search" placeholder="What do you need help with?">
+</div>
