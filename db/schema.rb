@@ -11,7 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150206232437) do
+ActiveRecord::Schema.define(version: 20150207005307) do
+
+  create_table "experts", force: true do |t|
+    t.string   "bio"
+    t.text     "skills"
+    t.integer  "hourly_rate"
+    t.decimal  "rating"
+    t.string   "avatar"
+    t.float    "plebian_score"
+    t.decimal  "hours_worked"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "first_name"

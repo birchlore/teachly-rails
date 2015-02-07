@@ -1,5 +1,11 @@
 class UsersController < ApplicationController
 
+
+  def dashboard
+    render :dashboard
+  end
+
+  
   def new
     @user = User.new
   end
@@ -37,6 +43,8 @@ class UsersController < ApplicationController
     @user.destroy
     redirect_to users_path
   end
+
+
 
 
   private
